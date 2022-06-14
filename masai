@@ -1,0 +1,15 @@
+s=str(input())
+l=len(s)
+flag=0
+for i in range(l):
+    for k in range(i+1,l):
+        if s[i]==s[k]:
+            flag=1
+if flag==1:
+    print("No")
+else:
+    print("Unique")
+            
+        
+        
+     
